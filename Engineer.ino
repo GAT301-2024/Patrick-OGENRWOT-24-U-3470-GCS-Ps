@@ -3,8 +3,8 @@
 
 // LED pins
 const int led1 = 5;
-const int led2 = 18;
-const int led3 = 19;
+const int led2 = 15;
+const int led3 = 18;
 
 // Web server on port 80
 WebServer server(80);
@@ -20,7 +20,7 @@ String webpage = R"=====(
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gaspher - Intelligent Light System Control</title>
+  <title>AutoSensor HomeLight System</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
@@ -245,7 +245,7 @@ String webpage = R"=====(
   <div class="container">
     <header>
       <div class="logo">
-        <i class="fas fa-lightbulb"></i> Gaspher
+        <i class="fas fa-lightbulb"></i> Pat#pf200@#
       </div>
       <h1>Smart Light Control Dashboard</h1>
       <p class="subtitle">Control your connected lights with ease</p>
@@ -317,15 +317,15 @@ String webpage = R"=====(
     </div>
     
     <div class="about-section">
-      <div class="about-title">About Gaspher Smart Lighting</div>
+      <div class="about-title">About Pat#pf@#  home Smart Lighting</div>
       <div class="about-text">
-        <p>Gaspher's intelligent lighting system allows you to control your home lights remotely with this easy-to-use web interface. Our system provides energy-efficient lighting control with the flexibility to manage individual lights or create lighting scenes for different moods and occasions.</p>
+        <p>Pat#pf@#'s intelligent lighting system allows you to control your home lights remotely with this easy-to-use web interface. Our system provides energy-efficient lighting control with the flexibility to manage individual lights or create lighting scenes for different moods and occasions.</p>
         <p style="margin-top: 1rem;">The system is built on secure WiFi technology and can be accessed from any device on your local network.</p>
       </div>
     </div>
     
     <footer>
-      <p>© 2023 Gaspher Systems. All rights reserved.</p>
+      <p>© 2025 Pat#pf@# Systems. All rights reserved.</p>
       <p>Team 3 - Intelligent Lighting Solutions</p>
       <div class="footer-links">
         <a href="#" class="footer-link">Privacy Policy</a>
